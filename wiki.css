@@ -1,0 +1,39 @@
+﻿body
+{
+    background-color:#071223;
+    font-family:Lato;
+    font-size:16px;
+
+}
+
+.searchwiki {
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+justify-content: center;
+    border-radius: 20px;
+    border: 5px solid #e81010;
+    padding: 12px;
+
+}
+
+
+.link a {
+        
+        color:#000;
+        font-weight:bold;
+}
+.link {
+
+background-color:#fff;
+    margin: 20px;
+    padding:5px;
+    border-radius:10px;
+}
+
+ul {
+    list-style-type: none;
+        margin-top: 77px;
+        
+}
