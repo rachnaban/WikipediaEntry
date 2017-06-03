@@ -26,7 +26,7 @@ $(document).ready(function () {
             return;
         }
        
-        var url = "http://en.wikipedia.org//w/api.php?callback=?";
+        var url = "https://en.wikipedia.org//w/api.php?callback=?";
              
         $.getJSON(url, {
             action: "query",
