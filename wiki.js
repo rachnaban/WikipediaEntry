@@ -3,7 +3,11 @@
 $(document).ready(function () {
 
     $("#btnSubmit").click(getWikiEntries);
-  
+     $('#searchVal').keypress(function (e) {
+        if (e.which == 13) {//Enter key pressed
+            $("#btnSubmit").click();//Trigger search button click event
+        }
+    });
     function fetchWikiEntries(data)
     {        
          $.each(data.query.pages, function (index, page) {
